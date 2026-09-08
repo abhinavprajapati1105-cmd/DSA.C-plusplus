@@ -7,7 +7,7 @@ int linSearch(int A[],int n, int key){
         return i;
       }
     }
-    return 0;
+    return -1;
 }
 int main(){
  int n;
@@ -22,7 +22,7 @@ int main(){
  cout<<"Enter the key element:";
  cin>>key;
  int ind=linSearch(A,n,key);
- if(ind!=0){
+ if(ind!=-1){
     cout<<"Element is found="<<ind<<endl;
  }else{
     cout<<"Element is not found";

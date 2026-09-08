@@ -32,7 +32,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> A[i];
     }
-    cout << "\n2. Bubble Sort";
+    cout << "\n Bubble Sort";
    
         bubbleSort(A, n);
         cout << "Sorted using Bubble Sort: ";
